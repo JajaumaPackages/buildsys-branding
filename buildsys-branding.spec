@@ -3,7 +3,7 @@
 
 Name:           buildsys-branding
 Version:        1.0.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Build system branding
 
 License:        MIT
@@ -35,5 +35,8 @@ EOF
 
 
 %changelog
-* Sat Aug 05 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.0.0-1.el7.centos
+* Sat Aug 05 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.0.0-2
+- Rebuild with itself
+
+* Sat Aug 05 2017 Jajauma's Packages <jajauma@yandex.ru> - 1.0.0-1
 - Initial release
